@@ -240,7 +240,7 @@ def start():
     root.title('Welcome To Hangman App')
     canvas = Canvas(root,width = 720,height = 440, bg = 'black')
     canvas.grid(column = 0 , row = 1)
-    img = PhotoImage(file="gomepagei.png")
+    img = PhotoImage(file="homepage.png")
     canvas.create_image(1,1,image=img,anchor=NW)
 
     s1 = Button(root, text='Start',command=signUpPage,bg="#20B2AA",fg="black") 
